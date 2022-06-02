@@ -18,6 +18,12 @@ importers:
       react: 18.1.0
       sea-pnpm-test-utils: link:../utils
 
+  packages/two:
+    specifiers:
+      sea-pnpm-test-utils: workspace:^2.0.0
+    dependencies:
+      sea-pnpm-test-utils: link:../utils
+
 packages:
 
   /@babel/code-frame/7.16.7:
