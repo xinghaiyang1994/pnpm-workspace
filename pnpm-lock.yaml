@@ -10,11 +10,11 @@ importers:
 
   packages/one:
     specifiers:
-      '@seatest/utils': workspace:^1.1.0
+      '@xinghaiyang/utils': workspace:^1.1.0
       lodash: ^4.17.21
       react: ^18.1.0
     dependencies:
-      '@seatest/utils': link:../utils
+      '@xinghaiyang/utils': link:../utils
       lodash: 4.17.21
       react: 18.1.0
 
