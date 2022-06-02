@@ -12,10 +12,16 @@ importers:
     specifiers:
       lodash: ^4.17.21
       react: ^18.1.0
-      sea-pnpm-test-utils: workspace:^1.1.0
+      sea-pnpm-test-utils: workspace:^2.0.0
     dependencies:
       lodash: 4.17.21
       react: 18.1.0
+      sea-pnpm-test-utils: link:../utils
+
+  packages/three:
+    specifiers:
+      sea-pnpm-test-utils: workspace:^2.0.0
+    dependencies:
       sea-pnpm-test-utils: link:../utils
 
   packages/two:
@@ -23,6 +29,12 @@ importers:
       sea-pnpm-test-utils: workspace:^2.0.0
     dependencies:
       sea-pnpm-test-utils: link:../utils
+
+  packages/utils:
+    specifiers:
+      lodash: ^4.17.21
+    dependencies:
+      lodash: 4.17.21
 
 packages:
 
