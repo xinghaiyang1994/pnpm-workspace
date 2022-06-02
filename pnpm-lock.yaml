@@ -10,13 +10,13 @@ importers:
 
   packages/one:
     specifiers:
-      '@xinghaiyang/utils': workspace:^1.1.0
       lodash: ^4.17.21
       react: ^18.1.0
+      sea-pnpm-test-utils: workspace:^1.1.0
     dependencies:
-      '@xinghaiyang/utils': link:../utils
       lodash: 4.17.21
       react: 18.1.0
+      sea-pnpm-test-utils: link:../utils
 
 packages:
 
